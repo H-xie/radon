@@ -40,9 +40,7 @@ NOTE: this package requires the +util package.
 
 Usage Notes:
 ------------
-(1) Suppose this repo's path is `workingpath/+radon`. Matlab's working path should set to
-    `workingpath/` and the utility repo should be named `+util` and put in the path
-    `workingpath/+util`
+(1) Run `demo.mlx`
 (2) Update in March, 1st, 2022 is tested in MATLAB R2021b. If anything goes wrong, 
     version check is recommanded.
 
