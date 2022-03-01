@@ -38,4 +38,12 @@ For other OSes just use "compile_core_frt_mex.m".
 NOTE: this package requires the +util package. 
       Available on github: https://github.com/guynir42/util
 
+Usage Notes:
+------------
+(1) Suppose this repo's path is `workingpath/+radon`. Matlab's working path should set to
+    `workingpath/` and the utility repo should be named `+util` and put in the path
+    `workingpath/+util`
+(2) Update in March, 1st, 2022 is tested in MATLAB R2021b. If anything goes wrong, 
+    version check is recommanded.
+
 
