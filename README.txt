@@ -40,8 +40,10 @@ NOTE: this package requires the +util package.
 
 Usage Notes:
 ------------
-(1) Run `demo.mlx`
-(2) Update in March, 1st, 2022 is tested in MATLAB R2021b. If anything goes wrong, 
+(1) `git clone --recursive https://github.com/H-xie/radon.git`
+    note: `--recursive` is required
+(2) Run `demo.mlx`
+(3) Update in March, 1st, 2022 is tested in MATLAB R2021b. If anything goes wrong, 
     version check is recommanded.
 
 
