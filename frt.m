@@ -19,7 +19,6 @@ function [R, finder] = frt(M_in, varargin)
 
     import util.text.cs;
     import util.text.parse_bool;
-    import util.text.print_size;
     import radon.frt;
 
     if nargin==0
@@ -67,7 +66,7 @@ function [R, finder] = frt(M_in, varargin)
     %%%%%%%%%%%%%%%%%%%%%%% CHECK INPUTS and DEFAULTS %%%%%%%%%%%%%%%%%%%%%
     
     if ndims(M_in)>2
-        error(['Cannot handle 3D matrices... ' printsize(M_in)]);
+        error(['Cannot handle 3D matrices... ' mat2str(size(M_in))]);
     end
     
     if ~isempty(finder) 

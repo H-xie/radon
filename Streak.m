@@ -779,7 +779,7 @@ classdef Streak < handle
                 if isempty(given_I)
                     title(ax, 'original image', 'FontSize', font_size);
                 else
-                    title(ax, ['original image (' f2s(given_I) 'e/pix)'], 'FontSize', font_size);
+                    title(ax, ['original image (' num2str(given_I) 'e/pix)'], 'FontSize', font_size);
                 end                    
 
                 if ~use_publishable
@@ -1026,9 +1026,9 @@ classdef Streak < handle
             else
 
                 if isempty(given_snr)
-                    title(ax, ['FRT image | SNR= ' f2s(obj.snr)], 'FontSize', font_size);
+                    title(ax, ['FRT image | SNR= ' num2str(obj.snr)], 'FontSize', font_size);
                 else
-                    title(ax, ['FRT image | SNR= ' f2s(obj.snr) '(expect: ' f2s(given_snr) ')'], 'FontSize', font_size);
+                    title(ax, ['FRT image | SNR= ' num2str(obj.snr) '(expect: ' num2str(given_snr) ')'], 'FontSize', font_size);
                 end
 
             end
